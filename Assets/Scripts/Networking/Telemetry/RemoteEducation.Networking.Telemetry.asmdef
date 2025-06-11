@@ -1,0 +1,21 @@
+{
+    "name": "RemoteEducation.Networking.Telemetry",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b70f733c207375e4a84fc8adef76df3a",
+        "GUID:d4f8f3098ca064117a9b67941bfedd91",
+        "GUID:998e0cbe964081842a3515e184588533",
+        "GUID:9d6c7830d9ab746a7a12f144bdeeee7c",
+        "GUID:30e7a851ec87b44ad956804ca8ebf15c",
+        "GUID:dfedbea4dc7154f92b6f47c1877bce29"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

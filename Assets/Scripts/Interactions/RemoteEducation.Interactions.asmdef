@@ -1,0 +1,20 @@
+{
+    "name": "RemoteEducation.Interactions",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:247a163e3cc6efb42bd22b9023b87ff3",
+        "GUID:cc9b1dbcea8af584ba492afeb67a12da",
+        "GUID:b43c617297fe3724e91044a309493f09",
+        "GUID:cbe3cd95994153149bf52f2a81cc9274"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

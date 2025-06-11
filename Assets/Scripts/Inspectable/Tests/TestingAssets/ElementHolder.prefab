@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4539341628168090176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7561506178278667960}
+  - component: {fileID: 5808766997166223620}
+  m_Layer: 0
+  m_Name: ElementHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7561506178278667960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4539341628168090176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5808766997166223620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4539341628168090176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57c76632ac029c43aa431af6f55df9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightsGood: {fileID: 6859587721209676070, guid: 3f6147482ac45f14f83daa2d4a79d992,
+    type: 3}
+  LightsMissing: {fileID: 6859587721209676070, guid: 577a94d212692244ebf3f8f8556b1094,
+    type: 3}
+  LightsBurntOut: {fileID: 6859587721209676070, guid: faf5bd89ffa4adc42a8dfbd4d3d5e5d8,
+    type: 3}
+  WheelsGood: {fileID: -2620624371892155960, guid: a3ef2837352f03a4799b832d5ee6a6a2,
+    type: 3}
+  WheelsFlat: {fileID: -473436625197854719, guid: 2b989e1e04382b444a194800876bb738,
+    type: 3}
+  FakeElementWheelsMissing: {fileID: -473436625197854719, guid: edf566481864ee842ba18fea0e30bd9b,
+    type: 3}

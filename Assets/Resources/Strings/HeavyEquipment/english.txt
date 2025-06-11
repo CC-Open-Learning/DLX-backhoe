@@ -1,0 +1,669 @@
+// HeavyEquipment "English"
+// About the document: Listed on this document is the string literals in English of what is used in the HeavyEquipment project.
+// In order to construct a string the string needs to be first quoted followed by another string surrounding in quotes for the context.
+// Example:
+// "ExampleStringToUseInCode"		"Content of string to use in code."
+//
+// When developing string literals we should be considerate of others therefore some standards are a must.
+// As such the document is divided in sections based on their needs.
+// The major sections are: General Strings, General Tooltips, General Toasts, and String Groups.
+// If there is a particular object that one is looking for using a text editor search feature would be preferred way to find it.
+//
+// Side Note:
+// When developing a sting to use, we have agreed that since the strings are public they should be PascalCase.
+// Also, these strings should be formatted by object/group name, type of string, and action/purpose. The action/purpose may be optional depending on object.
+// Example of object names:	FrontHood, Coolant, MetalShard
+// Example of type of strings:	Title, Description, Toast, Tooltip, Caption, Details
+// Example of actions:		Open, Closing, Inspection, Selecting, ClearObject
+// Full Examples:		FrontHoodToastOpen, CoolantTitleInspection, MetalShardsTooltip
+
+//General Strings
+//About: General strings are used as they are needed but have not too much relation with objects and interfaces in the project but should change
+// if other languages were to be used.
+//Format: Name Comment, Related Objects to the scene/code base Comment, String Content.
+
+//There are no general strings as of this moment.
+
+//General Tooltips
+//About: General Tooltips are used with the SimpleTooltip Component.
+//Format: Name Comment, Related Objects to the scene/code base Comment, String Content.
+
+//Name: LiftLockTooltip
+//Related Objects: LiftLock.cs
+"BackhoeLightOn"						"The light is on."
+"BackhoeLightOff"						"The light is off."
+
+//Name: DisengageSwingLockoutPin
+//Related Objects: SwingLockoutPin.cs
+"PreTripTitleDisengageSwingLockoutPin"	"Disengage the swing lockout pin"
+"PreTripDescriptionDisengageSwingLockoutPin"	"Disengage the swing lockout pin to enable the rear boom to move left or right."
+
+//Name: LightSwitchToolTip
+//Related Objects: LightSwitch.cs
+"RearLight"						"Rear Light Button"
+"FrontLight"					"Front Light Button"
+"TopLight"						"Top Light Button"
+
+//Name: IndicatorLightSwitchToolTip
+//Related Objects: IndicatorLightSwitch.cs
+"HazardLights"						"Hazard Lights Button"
+
+//Name: IgnitionKeyTooltip
+//Related Objects: Key.cs
+"IgnitionKeyTooltip"					"Ignition Key"
+
+//Name: Light Messages
+//Related Objects: LightSwitch.cs
+"LiftLockTooltip"						"Loader Arm Lift Lock"
+
+//Name: FrontLoaderControlLeverTooltip
+//Related Objects: LoaderControl.cs
+"FrontLoaderControlLeverTooltip"		"Front Loader Control Lever"
+
+//Name: BoomLockLevelTooltip
+//Related Objects: BoomLockLever.cs
+"BoomLockLeverTooltip"					"Boom Lock Control"
+
+//Name: MetalShardsTooltip
+//Related Objects: LiftLock.cs
+"MetalShardsTooltip"					"Metal Shards"
+
+//Name: BrakePedalsTooltip
+//Related Objects: LightSwitch.cs
+"BrakePedalsTooltip"                    "Brake Pedals"
+
+//General Toasts
+//About: General Toasts are used with the PromptManager Instance.
+//Format: Name Comment, Related Objects to the scene/code base Comment, String Content.
+
+//Name: BrakePedalsToastStuck
+//Related Objects: BrakePedalsManager.cs
+"BrakePedalsToastStuck"					"The brake pedals are stuck."
+
+//Name: ParkingBrakeToastBroken
+//Related Objects: ParkingBrake.cs
+"ParkingBrakeToastBroken"				"The parking brake does not work."
+
+//Name: GearShifterFunctional
+//Related Objects: GearShifter.cs
+"GearShifterFunctional"					"The gear shifter is functional."
+
+//Name: WiperFluidFull
+//Related Objects: WiperFluidReservoir.cs
+"WiperFluidFull"						"The wiper fluid reservoir is full."
+
+//String Groups
+//About: String Groups are groups of strings that correlate with one another and is often located in the same area of usage. 
+//They are sorted in groups so that it is easier to implement strings in certain groups.
+//Below is the format for comments which would then be followed by a list of sting literals.
+//Group: Name Of Object
+//Type: Inspection/General
+//Contains: Toast/Details/Tooltips/Captions
+//Related Objects: Object in Hierarchy
+
+//Name: Loader Control (Loader Shifter)
+//Related Objects: LoaderControl.cs
+"LoaderControlToastCantMove"	"Can't move the front loader, go outside to unlock the loader arm first."
+"LoaderControlToastToLift"		"The front loader is lifting."
+"LoaderControlToastToLower"		"The front loader is lowering."
+"SidePanelToastCantMove"		"Can't open the side panel, the front loader needs to be lifted and the loader arm needs to be locked."
+"ArmLiftLockCantMove"			"Can't move the arm lift lock, the front loader needs to be lifted and the side panels need to be closed. \n Look for the side panels on the ground next to the front wheels."
+
+//Group: Air Filter
+//Type: General
+//Contains: Toasts/Tooltips
+//Related Objects: AirFilterServiceIndicator.cs
+"AirFilterTooltipIndicator"				"Air Flow Restriction Indicator"
+"AirFilterToastExpired"					"The air filter is dirty and service is recommended."
+"AirFilterToastClean"					"The air filter is clean."
+
+//Group: Bucket Bolt
+//Type: General
+//Contains: Tooltips/Toasts
+//Related Objects: Bolt.cs
+"BucketBoltTooltip"						"Bolt Securing Bucket Blade"
+"BucketBoltToastLoose"					"The bolt is loose."
+"BucketBoltToastTight"					"The bolt is tight."
+
+//Group: Boom Lock Latch
+//Type: Inspection
+//Contains: Caption/Details/Toast
+//Related Objects: BoomLockLatch.cs and RearBoom->BoomLatch
+"BoomLockLatchCaption"					"Example of boom lock latch engaged."
+"BoomLockLatchDetails"					"The boom lock latch needs to be present and functional. Check if the boom lock latch is there and that when it is engaged, the rear does not move in a unintended manner."
+"BoomLockLatchToastLocked"				"The boom lock latch is locked."
+"BoomLockLatchToastUnlocked"			"The boom lock latch is unlocked."
+
+//Group: Swing Lockout Pin
+//Type: Inspection
+//Contains: Caption/Details/Toast
+//Related Objects: SwingLockoutPin.cs
+"SwingLockoutPinCaption"				"Example of swing lockout pin."
+"SwingLockoutPinDetails"				"The swing lockout pin needs to be engaged and functional. Check if the pin is there and that when it is engaged, the boom swing does not move in a unintended manner."
+"SwingLockoutPinToastEngaged"			"Swing Lockout Pin is engaged."
+"SwingLockoutPinToastDisengagedOrMissing" "Swing Lockout Pin is disengaged or missing."
+
+//Group: Coolant
+//Type: Inspection
+//Contains: Caption/Details
+//Related Objects: Coolant
+"CoolantCaption"						"Example of coolant."
+"CoolantDetails"						"To inspect the coolant we need to make sure that the liquid is not dirty (brown or muddy) and that the tank is full (visibly high and not low)."
+
+//Group: Column Lock
+//Type: Inspection
+//Contains: Toast
+//Related Objects: SteerColumnLock.cs
+"ColumnLockToast"				"The steer column lock appears to be broken."
+
+//Group: Bucket Tooth
+//Type: Inspection
+//Contains: Toast
+//Related Objects: WornTooth.cs, FallingTooth.cs
+"WornToothToast"				"The tooth appears to be worn."
+"FallingToothToast"				"The tooth appears to be loose."
+"GoodToothToast"				"The tooth appears to be in good condition and is tight."
+
+//Group: Gauge Panel Lights
+//Type: Tooltip
+//Contains: Toast
+//Related Objects: GaugePanelLight.cs
+"GaugePanelLightEngineCoolant"                      "Engine Coolant"
+"GaugePanelLightHydraulicOilTemp"                   "Hydraulic Oil Temperature"
+"GaugePanelLightTransmissionFluidTemp"              "Transmission Fluid Temperature"
+"GaugePanelLightFourWheel"                          "All Wheel Drive"
+"GaugePanelLightAutomaticEngineSpeedControl"        "Automatic Engine Speed Control"
+"GaugePanelLightEngineOilPressure"                  "Engine Oil Pressure"
+"GaugePanelLightChargingSystem"                     "Charging System"
+"GaugePanelLightParkBrake"                          "Parking Brake"
+"GaugePanelLightHydraulicBypass"                    "Hydraulic Bypass"
+"GaugePanelLightActionLight"                        "Action Light"
+"GaugePanelLightFuelWaterSeparator"                 "Fuel Water Separator"
+"GaugePanelLightAirFilter"                          "Air Filter"
+"GaugePanelLightWaitToStartIndicator"               "Wait to start indicator"
+
+//Group: Dipstick
+//Type: Inspection
+//Contains: Caption/Details
+//Related Objects: Dipsticks
+"DipstickCaption"						"Example of fluid levels."
+"DipstickDetails" 						"Inspect the dipsticks before operating the backhoe. Follow the Engine Oil and Transmission procedure. Check oil levels after the machine has been running for a while. Use an online check guide for instructions."
+"OilLevelToastLow"                      "Fluid level is low."
+"OilLevelToastOverfilled"               "Fluid level is overfilled."
+"OilLevelToastNormal"                   "Fluid level is normal."
+"OilLevelToastFull"                     "Fluid level is full."
+
+//Group: Front Bucket
+//Type: Inspection
+//Contains: Caption/Details
+//Related Objects: FrontLoader->Arms->Bucket
+"FrontBucketCaption"					"Example of front loader bucket."
+"FrontBucketDetails"					"The front loader bucket needs to be inspected in several areas. Specifically check for deformation, cracked welds, tears, loose bolts, and cutting edge condition."
+
+//Group: Fuel Tank
+//Type: General
+//Contains: Tooltips/Toast
+//Related Objects: FuelTank.cs, Gauge.cs	
+"FuelTankTooltip"						"Fuel Tank"
+"FuelTankToastFull"						"The fuel tank is full."
+"FuelTankToastEmpty"					"The fuel tank is empty."
+"FuelTankToastAlreadyFull"				"The fuel tank is already full."
+"FuelTankToastReminder"					"Always make sure the fuel tank is full at the end of the day."
+
+//Group: Fuel Gauge
+//Type: General
+//Contains: Tooltips/Toasts
+//Related Objects: Fuel Gauge -  FuelTank.cs, Gauge.cs
+"FuelGaugeTooltip"						"Fuel Gauge"
+"FuelGaugeToastCheck"					"Check the fuel gauge before filling tank."
+
+//Group: Fuel Water Separator
+//Type: Inspection
+//Contains: Tooltips/Toasts/Caption/Details
+//Related Objects: FuelWaterSeparator
+"FuelWaterSeparatorCaption"				"Example of fuel water separator."
+"FuelWaterSeparatorDetails"				"The fuel water separator on the backhoe needs to be inspected and drained into the proper container according to the procedure."
+"FuelWaterSeparatorTooltip"				"Fuel Water Separator"
+"FuelWaterSeparatorToastBowl"			"Check if the bowl is present in the Inspection Checklist."
+"FuelWaterSeparatorToastDrain"			"Always drain the fuel water separator."
+"FuelWaterSeparatorToastNoBowl"			"There is no bowl, cannot drain the fuel water separator. Continue with the inspection."
+"FuelWaterSeparatorToastDrained"		"Separator is now drained."
+
+//Group: Hydraulic Fuel Gauge
+//Type: General
+//Contains: Hydraulic Fuel Gauge
+//Related Objects: Hydraulic Gauge - Gauge.cs
+"HydraulicFuelGaugeTooltip"				"Hydraulic Fuel Gauge"
+"HydraulicFuelGaugeToastLow"			"The hydraulic fluid reservoir is low, please fill it before use."
+"HydraulicFuelGaugeAdequateLevel"		"The hydraulic fluid reservoir is full."
+
+//Group: Hydraulic Lines
+//Type: Inspection
+//Contains: Caption/Details/Toasts
+//Related Objects: Hydraulic Lines
+"HydraulicLinesCaption"					"Example of hydraulic fluid lines."
+"HydraulicLinesDetails"					"The hydraulic fluid lines need to be inspected before operation. Inspect them for damage and ensure that they are dry and secure."
+"HydraulicLinesToastGood"				"The hydraulic fluid line is satisfactory."
+"HydraulicLinesToastLeaking"			"The hydraulic fluid line is leaking."
+
+//Group: Lift Arms
+//Type: Inspection
+//Contains: Caption/Details
+//Related Object: Arms
+"LiftArmsCaption"						"Example of lift arms."
+"LiftArmsDetails"						"The lift arms need to be inspected for visible rot, deformation, and cracks."
+
+//Group: Pad Grousers
+//Type: Inspection
+//Contains: Caption/Details
+//Related Object: Pad Grousers
+"PadGrousersCaption"					"Example of stabilizer pad."
+"PadGrousersDetails"					"The pad and grousers of the backhoe must be free of debris and rocks."
+
+//Group: Pins
+//Type: General
+//Contains: Toasts/Tooltips
+//Related Object: Pin.cs
+"PinsToastGood"							"The pin is secure."
+"PinsToastNotSecure"					"The pin is not secure."
+"PinsToastNotAcceptingGrease"			"The pin is not accepting grease."
+
+//Group: Inside Cab
+//Type: General
+//Contains: Toasts/Tooltips
+//Related Object: DoorLatch.cs, DoorHandle.cs
+"LatchToastLocked"							"Door locked"
+"LatchToastUnlocked"						"Door unlocked"
+"DoorHandleToolTip"						"Click to open and close the door"
+"DoorToastLocked"							"The cab door is locked from the inside."
+
+//Group: Pistons
+//Type: Inspection
+//Contains: Details/Caption/Toast
+//Related Object: Pistons
+"PistonsCaption"						"Example of a piston leaking oil."
+"PistonsDetails"						"The pistons must be inspected to ensure they are not damaged or leaking oil."
+"PistonsToastGood"						"The piston is in good condition."
+"PistonsToastDamaged"					"The piston is damaged."
+"PistonsToastLeaking"					"The piston is leaking."
+
+//Group: Windows
+//Type: Inspection
+//Contains: Toast
+"WindowsCleanToast"						"Windows have been cleaned."
+"WindowsRecallDirtyToast"				"The windows were dirty earlier when we we're in the interior check."
+
+//Group: PreTrip
+//Type: Inspection
+//Contains: Titles/Descriptions
+//Related Objects: PreTripInspectionGS.cs
+"PreTripTitleCheckWheelsAndWindows"			"Check Windows"
+"PreTripDescriptionCheckWheelsAndWindows"	"Inspect the windows for cracks or dirt."
+"PreTripTitleOpenFrontHood"					"Open the Front Hood"
+"PreTripDescriptionOpenFrontHood"			"Open the front hood by clicking on it."
+"PreTripTitleClearEngineDebris"				"Clear Engine Debris"
+"PreTripDescriptionClearEngineDebris"		"Clear engine debris by clicking on it."
+"PreTripTitleSelectCoolant"					"Select Coolant"
+"PreTripDescriptionSelectCoolant"			"Inspect the engine coolant."
+"PreTripTitleCheckWiperFluidTank"			"Inspect Wiper Fluid Reservoir"
+"PreTripDescriptionCheckWiperFluidTank"		"Inspect the wiper fluid reservoir to see if it's full."
+"PreTripTitleSelectEngineOil"				"Select Engine Oil"
+"PreTripDescriptionSelectEngineOil"			"Inspect the engine oil."
+"PreTripTitleSelectTransmissionOil"			"Select Transmission Fluid"
+"PreTripDescriptionSelectTransmissionOil"	"Inspect the transmission fluid."	
+
+//Light Groups
+"PreTripTitleInspectFrontRightLights"	"Inspect the front right lights."
+"PreTripTitleInspectFrontLeftLights"	"Inspect the front left lights."
+"PreTripTitleInspectBackRightLights"	"Inspect the rear right lights."
+"PreTripTitleInspectBackLeftLights"		"Inspect the rear left lights."
+"PreTripTitleInspectTopLight"			"Inspect the top light."
+
+"PreTripDescriptionInspectFrontRightLights"	"Inspect the front right lights."
+"PreTripDescriptionInspectFrontLeftLights"	"Inspect the front left lights."
+"PreTripDescriptionInspectBackRightLights"	"Inspect the rear right lights."
+"PreTripDescriptionInspectBackLeftLights"	"Inspect the rear left lights."
+"PreTripDescriptionInspectTopLight"			"Inspect the top light."
+
+//Rear Boom Bucket
+"PreTripTitleInspectRearBucket" "Inspect Rear Bucket"
+"PreTripDescriptionInspectRearBucket" "Inspect the Rear Bucket."
+
+//Rear Boom Latch
+"PreTripTitleToggleRearBoomLockLatch"		"Engage Rear boom lock latch"
+"PreTripDescriptionToggleRearBoomLockLatch"	"Select the boom lock control lever to engage the rear boom lock latch"
+"PreTripTitleCheckRearBoomLockLatch"		"Inspect Rear boom lock latch"
+"PreTripDescriptionCheckRearBoomLockLatch"	"Click on the rear boom latch to inspect if it successfully locked."
+
+//Coolant
+"PreTripTitleCheckRadiatorTemp"			"Radiator Temperature"
+"PreTripDescriptionCheckRadiatorTemp"	"Always check the radiator temperature."
+"PreTripTitleAlreadyCool"				"Radiator is cool"
+"PreTripDescriptionAlreadyCool"			"In this case, it appears that the radiator is already cool."
+"PreTripTitleWaitToCoolDown"			"Let Radiator cool down"
+"PreTripDescriptionWaitToCoolDown"		"In this case, it appears that the radiator is hot."
+"PreTripTitleNowThatItsCool"			"Radiator has cooled"
+"PreTripDescriptionNowThatItsCool"		"You must wait until the radiator is cool before continuing."
+"PreTripTitleRemoveTheCap"				"Remove Coolant Cap"
+"PreTripDescriptionRemoveTheCap"		"Click on the cap to remove it."
+"PreTripTitleInspectCoolant"			"Inspect Coolant"
+"PreTripDescriptionInspectCoolant"		"Inspect if coolant is clean or dirty."
+"PreTripTitleCheckCoolantLevel"			"Check Coolant Level"
+"PreTripDescriptionCheckCoolantLevel"	"Determine the fluid level in the tank."
+"PreTripTitleCoolantIsLow"				"Coolant is low"
+"PreTripDescriptionCoolantIsLow"		"In this case, it appears that the coolant is low."
+"PreTripTitleFillCoolant"				"Fill the Coolant"
+"PreTripDescriptionFillCoolant"			"Fill the coolant by clicking on the tank."
+"PreTripTitleCoolantAlreadyFull"		"Coolant is already full"
+"PreTripDescriptionCoolantAlreadyFull"	"In this case, it appears that the coolant is already full."
+"PreTripTitleCloseCap"					"Close the Coolant Cap"
+"PreTripDescriptionCloseCap"			"The last step is to close the cap. Do this by clicking on it."
+
+//Dipstick
+"PreTripTitleRemoveDipstick"			"Remove Dipstick"
+"PreTripDescriptionRemoveDipstick"		"Now removing dipstick from tube"
+"PreTripTitleWipeStick"					"Wipe Dipstick"
+"PreTripDescriptionWipeStick"			"Wipe the dipstick."
+"PreTripTitleGetFluidLevel"				"Get Fluid Level"
+"PreTripDescriptionGetFluidLevel"		"Get fluid level by putting the dip stick back in and taking it out."
+"PreTripTitleInspectFluidLevel"			"Inspect Fluid Level"
+"PreTripDescriptionInspectFluidLevel"	"Inspect the fluid level by clicking the dipstick."
+"PreTripTitleSecondWipe"				"Wipe Dipstick"
+"PreTripDescriptionSecondWipe"			"Wipe the dipstick again."
+"PreTripTitleReturnDipStick"			"Return Dipstick"
+"PreTripDescriptionReturnDipStick"		"Return the dipstick."
+
+"PreTripTitleTurnOffIndicatorLights"	"Turn off the indicator lights"
+"PreTripTitleCheckFrontLeftTire"	"Inspect Front Left Tire"
+"PreTripTitleCheckFrontRightTire"	"Inspect Front Right Tire"		
+"PreTripTitleCheckBackLeftTire"		"Inspect Rear Left Tire"
+"PreTripTitleCheckBackRightTire"	"Inspect Rear Right Tire"
+"PreTripTitleFrontAxle"				"Inspect Front Axle"
+"PreTripTitleSteering"				"Inspect Steering"
+"PreTripTitleLiftArm"				"Inspect Lift Arm"
+"PreTripTitleLeftPiston"			"Inspect Left Cylinder"
+"PreTripTitleLeftHydraulics"		"Inspect Left Hydraulics"
+"PreTripTitleRightPiston"			"Inspect Right Cylinder"
+"PreTripTitleRightHydraulics"		"Inspect Right Hydraulics"
+"PreTripTitleROPS"                  "Inspect ROPS"
+"PreTripTitleInspectLeftPins"		"Inspect Left Lift Arm Pins"
+"PreTripTitleInspectRightPins"		"Inspect Right Lift Arm Pins"
+"PreTripTitleBackHoeLights"			"Turn on backhoe outside Lights"
+"PreTripTitleInspectLights"			"Inspect the outside Lights"
+"PreTripTitleCheckGrouserDebris"	"Check Grouser Debris"
+"PreTripTitleCheckLeftGrouser"			"Check Left Pad Grouser"
+"PreTripTitleCheckRightGrouser"			"Check Right Pad Grouser"
+"PreTripTitleCheckLeftGrouserPins"		"Check Left Grouser Pins"
+"PreTripTitleCheckRightGrouserPins"		"Check Right Grouser Pins"
+"PreTripTitleCheckLeftStabilizer"		"Check Left Stabilizer"
+"PreTripTitleCheckRightStabilizer"		"Check Right Stabilizer"
+"PreTripTitleTurnOnLeftIndicators"	"Turn on Left Indicators"
+"PreTripTitleCheckFrontLeftIndicator"	"Inspect Front Left Indicator"
+"PreTripTitleCheckBackLeftIndicator"	"Inspect Rear Left Indicator"
+"PreTripTitleTurnOnRightIndicators"	"Turn on Right Indicators"
+"PreTripTitleCheckFrontRightIndicator"	"Inspect Front Right Indicator"
+"PreTripTitleCheckBackRightIndicator"	"Inspect Rear Right Indicator"
+"PreTripTitleOutsideEngine"			"Begin Engine Inspection"
+"PreTripTitleHydraulicFluidReservoirCheck" "Check the Hydraulic Fluid Reservoir"
+
+"PreTripDescriptionTurnOffIndicatorLights"	"Click on the wiper lever to turn off the indicator lights"
+"PreTripDescriptionCheckFrontLeftTire"	"Inspect the tire for deflation or loose nuts."
+"PreTripDescriptionCheckFrontRightTire"	"Inspect the tire for deflation or loose nuts."
+"PreTripDescriptionCheckBackLeftTire"	"Inspect the tire for deflation or loose nuts."
+"PreTripDescriptionCheckBackRightTire"	"Inspect the tire for deflation or loose nuts."
+"PreTripDescriptionFrontAxle"			"Inspect the front axle for cracks."
+"PreTripDescriptionSteering"			"Turn all the way left, then all the way right to check wheel motion."
+"PreTripDescriptionSteeringLocked"		"The steering wheel is locked due to damage so we can't check the wheels."
+"PreTripDescriptionLiftArm"				"Inspect the lift arm for rust, deformation and cracks."
+"PreTripDescriptionLeftPiston"			"Inspect the cylinder for leaks."
+"PreTripDescriptionLeftHydraulics"		"Inspect the hydraulic lines for leaking fluid."
+"PreTripDescriptionRightPiston"			"Inspect the cylinder for leaks."
+"PreTripDescriptionRightHydraulics"		"Inspect the hydraulic lines for leaking fluid."
+"PreTripDescriptionROPS"					"Inspect the rollover protection system (ROPS) for damage. Look for deep gouges or breaks."
+"PreTripDescriptionInspectLeftPins"			"Inspect the left arm hydraulic pin, the left cylinder pin, and upper lift arm pin."
+"PreTripDescriptionInspectRightPins"		"Inspect the right arm hydraulic pin, the right cylinder pin, and upper lift arm pin."
+"PreTripDescriptionCheckGrouserDebris"		"Remove all debris near the pad grousers."
+"PreTripDescriptionCheckLeftGrouser"		"Inspect the left pad grouser."
+"PreTripDescriptionCheckRightGrouser"		"Inspect the right pad grouser."
+"PreTripDescriptionCheckLeftGrouserPins"	"Check all four pins near the left grouser."
+"PreTripDescriptionCheckRightGrouserPins"	"Check all four pins near the right grouser."
+"PreTripDescriptionCheckLeftStabilizer"		"Inspect the left stabilizer cylinder."
+"PreTripDescriptionCheckRightStabilizer"	"Inspect the right stabilizer cylinder."
+"PreTripDescriptionTurnOnLeftIndicators"	"Click on the wiper lever to turn on the left indicator lights."
+"PreTripDescriptionCheckFrontLeftIndicator"	"Inspect the indicator light on the front left."
+"PreTripDescriptionCheckBackLeftIndicator"	"Inspect the indicator light on the left rear."
+"PreTripDescriptionTurnOnRightIndicators"	"Click on the wiper lever to turn on the right indicator lights."
+"PreTripDescriptionCheckFrontRightIndicator"	"Inspect the indicator light on the front right."
+"PreTripDescriptionCheckBackRightIndicator"		"Inspect the indicator light on the right rear."
+"PreTripDescriptionOutsideEngine"				"Open the front hood and begin the engine inspection."
+"PreTripDescriptionHydraulicFluidReservoirCheck" "Read the gauge, then select the hydraulic fluid reservoir to inspect the fuel level."
+
+"PreTripTitleStage1CheckPuddles"			"Check for Puddles"
+"PreTripDescriptionStage1CheckPuddles"		"Inspect for any fluid or oil puddles on the ground."
+"PreTripTitleEnginePrompt"					"Engine reminder"
+"PreTripDescriptionEnginePrompt"			"The transmission fluid will be checked again later in the inspection after the engine has warmed up."
+"PreTripTitleAirFilterCheck"				"Check the Air Flow Restriction Indicator"
+"PreTripDescriptionAirFilterCheck"			"Inspect and check the air flow restriction indicator."
+"PreTripTitleStage3Start"					"Interior Inspection"
+"PreTripDescriptionStage3Start"				"To turn on the engine, go inside the backhoe by clicking on the door handle."
+"PreTripTitleStage3OpenDoor"				"Get inside the Cab"
+"PreTripDescriptionStage3OpenDoor"			"Click on the door handle to get inside the cab.\n Maintain three points of contact when entering for safety."
+"PreTripTitleStage3TurningKey"				"Turn the Ignition Key on"
+"PreTripDescriptionStage3TurningKey"		"Read system diagnostics by first clicking on the ignition key and turning it into the run position."
+"PreTripTitleStage3ReadingDiagonistics"			"Reading Diagnostics"
+"PreTripDescriptionStage3ReadingDiagonistics"	"Read the diagnostics of the backhoe from the inside."
+"PreTripTitleStage3Checklist"				"Indicator and Hours Checklist"
+"PreTripDescriptionStage3Checklist"			"Open the checklist by clicking on the panel. Evaluate the indicator lights and record work hours."
+"PreTripTitleStage3TurnKeyOff"				"Turn the Ignition Key off"
+"PreTripDescriptionStage3TurnKeyOff"		"Now that system diagnostics have been inspected, the key must be turned back to the off position for refilling."
+"PreTripTitleStage3ObserveFuelGauge"		"Observe Fuel Gauge Level"
+"PreTripDescriptionStage3ObserveFuelGauge"	"Check the fuel gauge on the gauge panel to see if we need to refuel the backhoe."
+"PreTripTitleObserveHydraulicFuelGauge"     "Observe Hydraulic Fluid Gauge Level"
+"PreTripDescriptionObserveHydraulicFuelGauge"   "Inspect the gauge on the hydraulic fluid reservoir to check the fluid level."
+"PreTripTitleStage3ExitCabToFillTank"		"Exit the Cab"
+"PreTripDescriptionStage3ExitCabToFillTank"	"Exit the cab to refuel the backhoe.\n Maintain three points of contact when exiting for safety."
+"PreTripTitleStage3FillTank"				"Fill the backhoe Fuel Tank"
+"PreTripDescriptionStage3FillTank"			"Since the backhoe fuel tank is empty, we need to refill it. Click on the fuel tank cap to do so."
+"PreTripTitleStage4TurningOnEngine"			"Turn on the Engine"
+"PreTripDescriptionStage4TurningOnEngine"	"Click on the key to turn on the engine."
+"PreTripTitleStage4WaitingInCab"			"Waiting inside the Cab"
+"PreTripDescriptionStage4WaitingInCab"		"The engine is now on."
+"PreTripTitleStage5ExitCab"					"Exit the Cab to continue inspection"
+"PreTripDescriptionStage5ExitCab"			"Click on the door handle to leave the cab.\n Maintain three points of contact when exiting for safety."
+"PreTripTitleStage5End"						"Next Inspection: Bucket"
+"PreTripDescriptionStage5End"				"Now check the condition of the front bucket."
+"PreTripTitleStage6Start"					"Bucket Inspection"
+"PreTripDescriptionStage6Start"				"Here we have an overview of the bucket. Check the fasteners."
+"PreTripTitleStage6CheckFasteners"			"Check Fasteners on Front Loader"
+"PreTripDescriptionStage6CheckFasteners"	"Check each fastener in the bucket to see if they are tight."
+"PreTripTitleStage7CheckDebris"				"Remove any Debris in the Front Loader"
+"PreTripDescriptionStage7CheckDebris"		"Look for and remove any debris that can be found in the front loader bucket."
+"PreTripTitleStage7CheckFrontLoader"		"Bucket Condition"
+"PreTripDescriptionStage7CheckFrontLoader"	"Determine the state of the bucket."
+"PreTripTitleStage8CheckDebris"				"Remove Debris behind the Front Loader"
+"PreTripDescriptionStage8CheckDebris"		"Look for and remove any debris that can be found behind the bucket."
+"PreTripTitleStage8CheckHydraulics"			"Check Hydraulic Cylinders and Lines"
+"PreTripDescriptionStage8CheckHydraulics"	"Inspect the hydraulic lines and cylinders for any visible damage or leaking fluid."
+"PreTripTitleCheckStage8CheckPinsAndRetainers"	"Check the Pins and Retainers"
+"PreTripDescriptionStage8CheckPinsAndRetainers"	"Inspect the six pins connected to the backhoe bucket to see if they are in good condition."
+"PreTripTitleBuildLiftArmScenarioStart"			"Inspect the Lift Arm"
+"PreTripDescriptionBuildLiftArmScenarioStart"	"We're now going to inspect the lift arm."
+
+//Stage 8plus inspection
+"PreTripTitleLiftFrontLoader"				"Lift Front Loader"
+"PreTripDescriptionLiftFrontLoader"			"Lift the front loader by clicking on the control lever."
+"PreTripTitleLockLoaderLiftArm"				"Lock Loader Lift Arm"
+"PreTripDescriptionLockLoaderLiftArm"		"Lock the loader lift arm by clicking on the arm lift lock."
+"PreTripTitleOpenSidePanel"					"Open Right Side Panel"
+"PreTripDescriptionOpenSidePanel"			"Open the right side panel by clicking on it."
+"PreTripTitleCheckEngineBelt"				"Inspect Engine Belt"
+"PreTripDescriptionCheckEngineBelt"			"Inspect the engine belt for tears and rips."
+"PreTripTitleCheckEngineWiring"				"Inspect Engine Wiring"
+"PreTripDescriptionCheckEngineWiring"		"Inspect the engine wiring for damaged insulation and exposed wiring."
+
+"PreTripTitleCloseSidePanel"				"Close Right Side Panel"
+"PreTripDescriptionCloseSidePanel"			"Always close the side panel after inspection."
+"PreTripTitleCloseFrontHood"				"Close Front Hood"
+"PreTripDescriptionCloseFrontHood"			"Close the front hood by clicking on it again."
+"PreTripTitleUnlockLoaderLiftArm"			"Unlock Loader Lift Arm"
+"PreTripDescriptionUnlockLoaderLiftArm"		"Unlock the loader lift arm by clicking on the arm lift lock again."
+"PreTripTitleLowerFrontLoader"				"Lower Front Loader"
+"PreTripDescriptionLowerFrontLoader"		"Go inside the cab to lower the front loader by clicking on the control lever again."
+
+
+"selectFuelWaterSeparatorTitle"				"Inspect Fuel Water Separator"
+"selectFuelWaterSeparatorDescription"		"Select the fuel water separator."
+"checkBowlTitle"							"Check Bowl"
+"checkBowlDescription"						"Check if the glass bowl is present."
+"drainFuelWaterSeparatorTitle"				"Drain Fuel Water Separator"
+"drainFuelWaterSeparatorDescription"		"Always drain the fuel water separator."
+
+//Stage 14th inspection
+"PreTripTitleCheckSwingLinkageDebris"					"Inspect Swing Linkage"
+"PreTripDescriptionCheckSwingLinkageDebris"				"Look for and remove any debris that can be found in the swing linkage area."
+"PreTripTitleCheckSwingLinkageHydraulic"                "Inspect Swing Linkage Cylinders"
+"PreTripDescriptionCheckSwingLinkageHydraulic"          "Inspect cylinders at swing linkage area for damage."
+"PreTripTitleCheckSwingLinkagePinsAndRetainers"			"Inspect Swing Linkage Pins and Retainers"
+"PreTripDescriptionCheckSwingLinkagePinsAndRetainers"	"Inspect the swing linkage pins, the lower left boom arm pin, and the lower right boom arm pin."
+
+//Stage 15th - 19th inspection
+"PreTripTitleCheckRearBoomLeftSide"						"Inspect Left side of the Rear Boom (Hydraulics, Hydraulic Lines, Brackets)"
+"PreTripDescriptionCheckRearBoomLeftSide"				"Inspect rear boom arm cylinders, hydraulic lines, and line brackets for damage."
+"PreTripTitleCheckBucketLinkageDebris"					"Inspect the Rear Bucket Linkage area"
+"PreTripDescriptionCheckBucketLinkageDebris"			"Remove any debris that can be found at the rear bucket linkage."
+"PreTripTitleCheckRearBucketPinsAndRetainers"			"Inspect Rear Bucket Pins and Retainers"
+"PreTripDescriptionCheckRearBucketPinsAndRetainers"		"Inspect the five pins connected to the backhoe rear bucket."
+"PreTripTitleCheckRearBucketHydraulic"					"Inspect the Bucket Cylinder for damage"
+"PreTripDescriptionCheckRearBucketHydraulic"			"Inspect the bucket cylinder for damage."
+"PreTripTitleCheckRearBoomRightSide"					"Inspect the bracket on the hydraulic lines"
+"PreTripDescriptionCheckRearBoomRightSide"				"Inspect the right hydraulic line bracket on the boom for damage."
+
+
+"PreTripTitleStage9Start"		"Inspect Tires, Front Axle, and Steering"
+"PreTripTitleStage10Start"		"Inspect Lift Arm"
+"PreTripTitleStage11Start"		"Inspect Lights, Doors, Windows, and ROPS"
+"PreTripTitleStage12Start"		"Inspect Rear Axle and Pad Grousers"
+"PreTripTitleStage14Start"		"Inspect Swing Linkage"
+"PreTripTitleStage15Start"		"Inspect Rear Boom"
+
+"PreTripDescriptionStage9Start"			"Inspect the tires, front axle and the steering."
+"PreTripDescriptionStage10Start"		"Inspect the lift arm of the backhoe."
+"PreTripDescriptionStage11Start"		"Inspect the outside lights, doors, windows, and the Rollover Protection System (ROPS)."
+"PreTripDescriptionStage12Start"		"Inspect the rear axle, rear tires, and the area around the pad grousers."
+"PreTripDescriptionStage14Start"		"Inspect the swing linkage."
+"PreTripDescriptionStage15Start"		"Inspect the rear boom of the backhoe."
+
+//RearAxle
+"PreTripTitleCheckRearAxle"			"Inspect Rear Axle"
+"PreTripDescriptionCheckRearAxle"	"Use the Move and Zoom controls to inspect the rear axle from both sides."
+
+// Exit Backhoe
+"PreTripTitleExitBackhoe"				"Get outside the Cab"
+"PreTripDescriptionExitBackhoe"			"Click on the door handle to leave the cab.\n Maintain three points of contact when exiting for safety."
+
+//Cab Doors
+"PreTripTitleCheckLeftDoorFrame" "Inspect the Left Door Frame"
+"PreTripDescriptionCheckLeftDoorFrame" "Inspect the left cab door frame for damage."
+"PreTripTitleCheckRightDoorFrame" "Inspect the Right Door Frame"
+"PreTripDescriptionCheckRightDoorFrame" "Inspect the right cab door frame for damage."
+
+//Stage 21st inspection
+"PreTripTitleStage21Start"                  "Inspect the Inside of the Cab"
+"PreTripDescriptionStage21Start"            "Inspect inside of the cab. Click on the door handle to go in the backhoe."
+"PreTripTitleStage21OpenDoor"				"Get inside the Cab"
+"PreTripDescriptionStage21OpenDoor"			"Click on the door handle to get inside the cab.\n Maintain three points of contact when entering for safety."
+"PreTripTitleCheckAlarmsAndWarnings"		"Inspect Alarms and Warnings"
+"PreTripDescriptionCheckAlarmsAndWarnings"	"Confirm that no alarms or warnings have remained on."
+"PreTripTitleWatchGaugeSweep"				"Watch the gauge sweep"
+"PreTripDescriptionWatchGaugeSweep"			"Confirm that all gauges sweep and all lights flash."
+"PreTripTitleCheckSeat"						"Inspect Seat Procurement"
+"PreTripDescriptionCheckSeat"				"Inspect the seat for proper securement and adjustability. Skipped for now."
+"PreTripTitleCheckBrakePedals"				"Inspect Brake Pedals"
+"PreTripDescriptionCheckBrakePedals"		"Inspect brake pedals to see if they are locked together and operational.."
+"PreTripTitleCheckSteeringLock"				"Inspect the steering column lock"
+"PreTripDescriptionCheckSteeringLock"		"Inspect the steering column lock to see if it works."
+"PreTripTitleCheckParkingBrake"             "Inspect Parking Brake"
+"PreTripDescriptionCheckParkingBrake"       "Inspect parking brake to see if it's working properly."
+"PreTripTitleTurnOnWipers"					"Turn on the Wiper"
+"PreTripDescriptionTurnOnWipers"			"Turn on the wiper by pressing on the button on the right lever."
+"PreTripTitleWipersObserve"					"Wiper Condition"
+"PreTripDescriptionWipersObserve"			"Observe the windshield wiper in motion. A working wiper has a smooth motion."
+"PreTripTitleCheckWiper"					"Inspect the Wiper and Washer"
+"PreTripDescriptionCheckWiper"				"Determine the state of the windshield wiper."
+"PreTripTitleTurnOffWipers"					"Turn off the Wiper"
+"PreTripDescriptionTurnOffWipers"			"Turn off the wiper by pressing on the button on the right lever."
+"PreTripTitleCheckSignalLights"				"Inspect Signal Lights"
+"PreTripDescriptionCheckSignalLights"       "Inspect signal lights to see if they are working properly. Skipped for now."
+"PreTripTitleCheckReverseAlarm"				"Inspect Reverse Alarm"
+"PreTripDescriptionCheckReverseAlarm"		"Click on the control lever to hear the sound of the reverse alarm."
+"PreTripTitleCheckHorn"						"Inspect Horn"
+"PreTripDescriptionCheckHorn"				"Press the button on the left control lever to hear the horn."
+"PreTripTitleTurnOffReverseAlarm"			"Turn off the Reverse Alarm"
+"PreTripDescriptionTurnOffReverseAlarm"		"Click on the control lever to turn off the reverse alarm."
+"PreTripTitleCheckOperatorManual"           "Inspect Operator's Manual"
+"PreTripDescriptionCheckOperatorManual"     "Check operator's manual and previous days' inspection report. Skipped for now."
+"PreTripTitleCheckGearShifting"             "Inspect Gear Shifting"
+"PreTripDescriptionCheckGearShifting"		"Inspect the gear shifter to see if it's working properly."
+"PreTripTitleStage21ExitCab"				"Exit the Cab to continue the inspection"
+"PreTripDescriptionStage21ExitCab"			"Click on the door handle to leave the cab.\n Maintain three points of contact when exiting for safety."
+
+//Stage 22 inspection
+"PreTripTitleStage22Start"                  "Second Transmission Check"
+"PreTripDescriptionStage22Start"			"Now that the engine has been running for a while, re-check the transmission."
+
+//Stage 23rd inspection
+"PreTripTitleStage23Start"                  "Final Stage"
+"PreTripDescriptionStage23Start"			"Go back inside the Cab"
+"PreTripTitleStage23OpenDoor"				"Get inside the Cab"
+"PreTripDescriptionStage23OpenDoor"			"Click on the door handle to get inside the cab.\n Maintain three points of contact when entering for safety."
+"PreTripTitleDocumentResult"				"Documenting Result"
+"PreTripDescriptionDocumentResult"          "Now for the last step, document all the inspection results."
+
+"PreTripDescriptionBackHoeLights"			"Turn on the top beacon light, front lights, Hazard Lights, and the rear lights"
+
+"PreTripDescriptionInspectLights"			"Inspect the top beacon light, front lights, hazard lights, and rear lights for burnt out bulbs."
+
+//Group: Rear Bucket
+//Type: Inspection
+//Contains: Caption/Details
+//Related Objects: RearBucket->Bucket
+"RearBucketCaption"					"Example of rear bucket."
+"RearBucketDetails"					"The rear bucket on the backhoe needs to be inspected for deformation, cracked welds, tears, loose bolts and the condition of the cutting edge."
+
+//Group: ROPS
+//Type: Inspection
+//Contains: Caption/Details
+//Related Objects: ROPS
+"ROPSCaption"						"Example of Rollover Protection System on 416F2 Backhoe."
+"ROPSDetails"						"The roll over protection system needs to be inspected for dents, cracks, bad welds, rot, and deformation to ensure that the operator is safe if an accident occurs."
+
+//Group: Steering Wheel
+//Type: Inspection
+//Contains: Caption/Details
+//Related Object: Steering Wheel
+"SteeringWheelCaption"				"Example of steering system."
+"SteeringWheelDetails"				"The steering wheel needs to be inspected to ensure that one can adjust the wheel position. Inspect the steering lock for proper functionality and make sure that the wheels move when steering."
+
+//Group: Wheels
+//Type: Inspection
+//Contains: Details
+//Related Objects: FrontLeftWheel->Tire, FrontRightWheel->Tire, BackLeftWheel->Tire, BackRightWheel->Tire
+"WheelDetails"						"The wheels on the 416F2 Backhoe needs to be inspected to ensure that the wheel nuts are all tight, the rims are not damaged, and the tire is not deflated."
+"WheelCaption"						"Example of wheels on a 416F2 Backhoe."
+
+//Group: WheelNuts
+//Type: General
+//Contains: Tooltips/Toast
+//Related Objects: WheelNut.cs, WheelTests.cs
+"WheelNutsTooltip"					"Wheel Nut"
+"WheelNutsToastTight"				"The wheel nut is tight."
+"WheelNutToastLoose"				"The wheel nut is loose."
+"PreTripTitleWheelNuts"				"Inspect Wheel Nuts"
+"PreTripDescriptionWheelNuts"		"Inspect the wheel nuts on the tire to see if they are loose."
+
+//Group: Windshield Wiper
+//Type: Inspection
+//Contains: Caption/Details
+//Related Objects: WiperContainer
+"WiperDetails"						"Inspect the windshield wipers for improper movement, streaking or squeaking during operation, uneven cleaning, and cracks or any other visible damage."
+"WiperCaption" 						"Example of a windshield wiper."

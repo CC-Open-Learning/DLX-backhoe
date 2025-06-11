@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UnitTests
+  m_EditorClassIdentifier: 
+  m_GroupName: UnitTests
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 09cefd036e369764581ec020d5f21d2a
+  m_SerializeEntries:
+  - m_GUID: d08329fdf3f705c40b12a28d8632be5e
+    m_Address: InspectableTestingObject
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 614114459b9b2a142a4dac88a8901fdd
+    m_Address: InspectableElementTestPrefabHolder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: fd7b2a92679f4ca45a225327751fdc64, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4f6bf1b161240ba4293f37993ef86371, type: 2}
+    - {fileID: 11400000, guid: 312db2b4084472c44973f81a2d69331d, type: 2}

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: HeavyEquipment
+  m_EditorClassIdentifier: 
+  m_GroupName: HeavyEquipment
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 85083e87c609ba745a18b86598bfa44b
+  m_SerializeEntries:
+  - m_GUID: 4e356a8ceb5a19e42bb547ac416a350c
+    m_Address: Heavy Equipment Environment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5473974486c30d749b2505d8e8d450dd
+    m_Address: Wheels
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 26bc77ba4e9d5934f812781f70b7123f
+    m_Address: Removable Debris
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: de1445f8d3f16744e9c3b31535b776bd
+    m_Address: CoolantReservoir
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 8464018310656829748, guid: de1445f8d3f16744e9c3b31535b776bd,
+      type: 3}
+    m_TargetAsset: {fileID: 8464018310656829748, guid: de1445f8d3f16744e9c3b31535b776bd,
+      type: 3}
+  - m_GUID: 9647ab3bd63cfbd43bf22051acb52885
+    m_Address: GraphScenarios/PreTripInspectionGS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 1052748902551935450, guid: 9647ab3bd63cfbd43bf22051acb52885,
+      type: 3}
+    m_TargetAsset: {fileID: 1052748902551935450, guid: 9647ab3bd63cfbd43bf22051acb52885,
+      type: 3}
+  - m_GUID: 2ee18e4b30090da448000fa148548e1b
+    m_Address: LeakingOil
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0a1f62e4d734b6a4295b2388124a3164
+    m_Address: Wiper
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: fd7b2a92679f4ca45a225327751fdc64, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6c6ce7941d9c8ba428dbabfc318fa62e, type: 2}
+    - {fileID: 11400000, guid: 796c222710e3502439fbf6f1a3b36544, type: 2}

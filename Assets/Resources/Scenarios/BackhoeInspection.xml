@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Scenario xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  identifier="2041" title="Caterpillar 416F Backhoe Loader" module="Heavy Equipment" taskGraph="PreTripInspectionGS" environment="Heavy Equipment Environment" defines="HEAVYEQUIPMENT" projectkey="HE">
+	<Description>Pre-operation inspection of a Caterpillar 416F backhoe</Description>
+	<PositiveComment />
+	<NegativeComment />
+	<Tasks />
+	<ModuleData></ModuleData>
+</Scenario>

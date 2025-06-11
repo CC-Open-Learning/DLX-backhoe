@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 63701f19ae0da65429cca919ba7ac157
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2982558478357991608
+    second: TextureAtlasHydraulics_0
+  - first:
+      213: -3977084114365285571
+    second: TextureAtlasHydraulics_1
+  - first:
+      213: -6420912919908718183
+    second: TextureAtlasHydraulics_2
+  - first:
+      213: -5446701113577301806
+    second: TextureAtlasHydraulics_3
+  - first:
+      213: -4542974578363471378
+    second: TextureAtlasHydraulics_4
+  - first:
+      213: 6800190230554678501
+    second: TextureAtlasHydraulics_5
+  - first:
+      213: -670260074383241909
+    second: TextureAtlasHydraulics_6
+  - first:
+      213: -313522476492187364
+    second: TextureAtlasHydraulics_7
+  - first:
+      213: 7691372007871061325
+    second: TextureAtlasHydraulics_8
+  - first:
+      213: -6671781312151260335
+    second: TextureAtlasHydraulics_9
+  - first:
+      213: 6747107014790997613
+    second: TextureAtlasHydraulics_10
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1721
+        width: 405
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f64afbdd2db96d0800000000000000
+      internalID: -2982558478357991608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_1
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1778
+        width: 401
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b7869c11f8ec8c0800000000000000
+      internalID: -3977084114365285571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_2
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1720
+        width: 407
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999ef1308b554e6a0800000000000000
+      internalID: -6420912919908718183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_3
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1725
+        width: 405
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8108fe13e6964b0800000000000000
+      internalID: -5446701113577301806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_4
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1640
+        width: 305
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9e301d0bc14f0c0800000000000000
+      internalID: -4542974578363471378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1301
+        width: 407
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e41b495cf02f5e50800000000000000
+      internalID: 6800190230554678501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_6
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1283
+        width: 404
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d82477302c2b6f0800000000000000
+      internalID: -670260074383241909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_7
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1232
+        width: 302
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19159ff7f426abf0800000000000000
+      internalID: -313522476492187364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_8
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1266
+        width: 403
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d998c271e3dba60800000000000000
+      internalID: 7691372007871061325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_9
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1311
+        width: 400
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1537226ce321963a0800000000000000
+      internalID: -6671781312151260335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextureAtlasHydraulics_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 931
+        width: 402
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66e92e051a82ad50800000000000000
+      internalID: 6747107014790997613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d9064832c8bfedc46af5532519a79b31
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TextureAtlasHydraulics_0: -2982558478357991608
+      TextureAtlasHydraulics_1: -3977084114365285571
+      TextureAtlasHydraulics_10: 6747107014790997613
+      TextureAtlasHydraulics_2: -6420912919908718183
+      TextureAtlasHydraulics_3: -5446701113577301806
+      TextureAtlasHydraulics_4: -4542974578363471378
+      TextureAtlasHydraulics_5: 6800190230554678501
+      TextureAtlasHydraulics_6: -670260074383241909
+      TextureAtlasHydraulics_7: -313522476492187364
+      TextureAtlasHydraulics_8: 7691372007871061325
+      TextureAtlasHydraulics_9: -6671781312151260335
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

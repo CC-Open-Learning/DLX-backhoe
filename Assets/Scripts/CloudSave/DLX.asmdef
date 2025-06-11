@@ -1,0 +1,21 @@
+{
+    "name": "CloudSaveAssemblyDef",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e0cdf70e0672612409d1c39552e7a2a1",
+        "GUID:cbe3cd95994153149bf52f2a81cc9274",
+        "GUID:bdeaa160acd3d3845a880b481718d9bd",
+        "GUID:94dfb9d069d853a45986b21696a3ade5",
+        "GUID:5e6edcc1994565947ad3cd098f92bb84",
+        "GUID:1b5b00a96c852224d965ce0b772ed4f3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

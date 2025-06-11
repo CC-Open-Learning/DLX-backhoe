@@ -1,0 +1,72 @@
+// Menu labels
+"Scenarios" "Scenarios"
+"Settings"	"Settings"
+"Playback"  "Playback"
+"Quit"		"Quit"
+"Start"		"Start"
+"Continue"  "Continue"
+"Restart"   "Restart"
+
+// Pause Menu
+"Paused" "Paused"
+"QuitScenario" "Do you want to quit the Scenario?"
+
+//Load Prompt
+"LoadProgress" "Load Progress"
+"LoadProgressMessage" "Do you want to continue or restart?"
+
+// User Feedback
+"SubmitFeedback"	"Submit Your Feedback"
+"Description"		"Description"
+"Subject"	"Subject"
+"ReportType"	"Report Type"
+"Submit"	"Submit"
+"Cancel"	"Cancel"
+"AnonymousFeedback" "Reports from this form are submitted anonymously."
+
+// Scenario Menu
+"SelectScenario"	"Select A Scenario"
+
+// Scenario Load Error
+"Close"		"Close"
+"Error"		"Error"
+"LoadSceneErrorMessage" "Unable to load scenario, please try again and if the problem persists please contact us at:"
+"LoadingScenario" "Loading Scenario"
+"DownloadingContent"	"Downloading Content"
+
+// Settings Window
+"UIVolume"		"UI Volume"
+"SimVolume"		"Sim Volume"
+"VolumeControls"		"Volume Controls"
+"BackgroundVolume"		"Background"
+"VoiceoverVolume"		"Voiceover"
+"SoundEffectVolume"		"Sound Effect"
+"Audio"			"Audio"
+"Tutorial"		"Tutorial"
+"DeveloperMode"		"Developer Mode"
+"VSync"			"Vertical Sync"
+"PlaybackControls"	"Playback Controls"
+
+// Resources for AppDisabledMessage
+"ContactEmail"	"varlab@stu.conestogac.on.ca"
+"DisabledMessage"	"This version of CORE Engine is no longer supported, or you are not connected to the internet.\n\nCheck your connection or contact <u><color=#{0}>{1}</color></u> for more information."
+"MailToURI"	"mailto:{0}?subject=CORE%20Engine%20v{1}"
+
+// Playback SaveManager
+"DefaultFileName"		"SaveFile"
+"EmptyFileName"		"You need to specify a file name. A file name cannot be empty."
+"RegexMismatch"		"Your file name contains invalid character."
+"ExistingFileName"		"The file name already exists."
+
+// Pre-Trip Inspection Checklist
+"InspectionChecklist"	"PRE-TRIP INSPECTION REPORT"
+"InspectionChecklistDescription"	"I have identified the following defects as noted below:"
+
+// Results Screen
+"Results.Score"				"{0} of {1} tasks correct ({2:0.00}%)"
+"Results.ScoreNoPercent"	"{0} of {1} tasks correct"
+"Results.Pass"				"Correct"
+"Results.Fail"				"Incorrect"
+
+// Misc
+"None"	"None"

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18baaa82f878267459dd077435e8cb72, type: 3}
+  m_Name: BuildPipelinesSettings
+  m_EditorClassIdentifier: 
+  LoadFromCCD: 1
+  BuildAddressables: 1
+  DevelopmentBuild: 1
+  BuildTarget: 20
+  CreateSCORMPackage: 1
+  RunAfterBuilding: 0
+  UploadToCCD: 1
+  loadSpecificScenario: 1
+  SCORMExportData:
+    ManifestIdentifier: HE-23S5-27JULY2023-dev
+    CourseTitle: Heavy Equipment Backhoe
+    CourseDescription: 
+    SCOTitle: Backhoe
+    DataFromLMS: 
+    CompletedByProgressAmount: 0
+    ProgressAmountForCompletion: 1
+    TimeLimitAction: 0
+    TimeLimit: 
