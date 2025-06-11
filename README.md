@@ -1,6 +1,6 @@
 # Heavy Equipment Backhoe
 
-This repository contains the Unity project for LSM2.01 - Heavy Equipment Backhoe, see documentation in the Open Education Resources DLX-confluence repo
+This repository contains the Unity project for LSM2.01 - Heavy Equipment Backhoe, see documentation in the [DLX-confluence](https://github.com/CC-Open-Learning/DLX-confluence) repo
 
 # Contributors
 
